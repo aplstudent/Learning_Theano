@@ -1,0 +1,9 @@
+-i wrote out the logistic regression class and tested it 
+-i created simple variables and a simple function to test with
+-i created a cost function and a gradient function
+-I created a simple logistic regression class. The parts int's initiallized with weights and bias matrix, prediciton
+-there is a cost function which in this cass is the negative log loss. 
+-i created some fake datapoints and performed a linear regression on them. paramters, cost function, updates
+
+
+-loaded the data from the pickled mnist file into a dataframe

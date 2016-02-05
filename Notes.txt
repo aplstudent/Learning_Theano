@@ -7,3 +7,8 @@
 
 
 -loaded the data from the pickled mnist file into a dataframe
+
+February 5th
+-i'm going to rearrange the multilayer perceptron so that it's in good object oriented programming. and i;ll rebuild it using the tutorial as a guide. 
+#the ipython 3 kernel is dead and wont start 
+-rewriting the code

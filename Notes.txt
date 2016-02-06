@@ -16,3 +16,30 @@ February 5th
 -taking out the regularization. ill try to put it in later
 -took out hidden layar params to see if it will work
 -got  piece to work but now the next one isnt' 
+February 6th
+-i got it to work, but it's not looping through on every epoch 
+-when optimization updates are param - lr*param the percentage correct went down, when it was positive it went up
+-how do i vissualize what the outputs are. the cost i want to minimize so it should be minus the gradient can still be + or -
+-i'm printing out cost, iteration number. I am running a test and taking these measurments on it. 
+-i'm looking at the best_validation loss so i want it to below. 
+-Have I hit the benchmark? what happens when i change hidden layers? how optimizable is this? features to add? features to take away
+-I think a multilayer perceptron no bells or whistles is a good thing to write. cause i can strip down this one down
+-multi-layer perceptron one node, one hidden layer 0-0-0, inputs, hidden , logistic
+--regularization, l1 and l2
+--drop out
+--paramaterized hidden units
+--paramaterized number of hidden layers
+--multiple acitivation functions
+--multiple regression classes
+--AUC curve
+--performance standards
+--minibatch gradient descent
+--number of epochs
+--no validation checkor no test score check. 
+--so this model will be drastically overfit 
+--hard code everything all the paramaters, but identify them as hyper paramaters
+--there are also regular paramaters 
+--
+but as a teaching mechanic I think that is fine
+--i'm noting what i'm taking out
+-- i striped down a lot of the functions , now i'm getting a type error for one of my y's. 

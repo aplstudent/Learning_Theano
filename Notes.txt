@@ -12,3 +12,7 @@ February 5th
 -i'm going to rearrange the multilayer perceptron so that it's in good object oriented programming. and i;ll rebuild it using the tutorial as a guide. 
 #the ipython 3 kernel is dead and wont start 
 -rewriting the code
+-thte gradient is not computing it's asking for ndims to be 0 but classifier.l1 is 2 
+-taking out the regularization. ill try to put it in later
+-took out hidden layar params to see if it will work
+-got  piece to work but now the next one isnt' 

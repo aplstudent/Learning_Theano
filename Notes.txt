@@ -35,6 +35,7 @@ February 6th
 --performance standards
 --minibatch gradient descent
 --number of epochs
+--took out early stopping
 --no validation checkor no test score check. 
 --so this model will be drastically overfit 
 --hard code everything all the paramaters, but identify them as hyper paramaters
@@ -58,3 +59,9 @@ but as a teaching mechanic I think that is fine
 --it's not even seeing the hidden layer for some reason
 --the hard coding is working kind of
 --got the layers feeding into each other but now dimensions are all wrong
+-debugging more 
+-got the same shared takes at least one argument error. value in shared was values not value. sigh
+-it's working! how can i make it more simple? 
+--more hidden layers takes a longer time, hidden layers vs computational timude e
+--include a paramaters function, include a check validation function
+--i could take at crosse validation all together

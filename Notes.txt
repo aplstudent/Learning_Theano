@@ -43,3 +43,18 @@ February 6th
 but as a teaching mechanic I think that is fine
 --i'm noting what i'm taking out
 -- i striped down a lot of the functions , now i'm getting a type error for one of my y's. 
+
+--February 7th 
+--messing with the sgd optimization 
+-taking out number of epochs only want to do it once 
+-i got it to work but i don't think it should be. 
+--the hidden layer has to be 784 which is 28*28 but it should be going through two dot products not just one.
+-removed part about patience and conditional for improvment threshold
+--took out the bias
+--wondering what is wrong 
+--i think i messed up the arguements cause i'm sloppy 
+-hard coding things to try and make it work
+--geting weird theano shared needs 1 argument but being given 3. 
+--it's not even seeing the hidden layer for some reason
+--the hard coding is working kind of
+--got the layers feeding into each other but now dimensions are all wrong

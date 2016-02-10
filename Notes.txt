@@ -65,3 +65,5 @@ but as a teaching mechanic I think that is fine
 --more hidden layers takes a longer time, hidden layers vs computational timude e
 --include a paramaters function, include a check validation function
 --i could take at crosse validation all together
+February 8th
+--convputional neural networks are used for image processing. THere is a good tutorial on them at deep learning .com so i'll modify that to work with the first two parts of it. 

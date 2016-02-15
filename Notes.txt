@@ -7,3 +7,63 @@
 
 
 -loaded the data from the pickled mnist file into a dataframe
+
+February 5th
+-i'm going to rearrange the multilayer perceptron so that it's in good object oriented programming. and i;ll rebuild it using the tutorial as a guide. 
+#the ipython 3 kernel is dead and wont start 
+-rewriting the code
+-thte gradient is not computing it's asking for ndims to be 0 but classifier.l1 is 2 
+-taking out the regularization. ill try to put it in later
+-took out hidden layar params to see if it will work
+-got  piece to work but now the next one isnt' 
+February 6th
+-i got it to work, but it's not looping through on every epoch 
+-when optimization updates are param - lr*param the percentage correct went down, when it was positive it went up
+-how do i vissualize what the outputs are. the cost i want to minimize so it should be minus the gradient can still be + or -
+-i'm printing out cost, iteration number. I am running a test and taking these measurments on it. 
+-i'm looking at the best_validation loss so i want it to below. 
+-Have I hit the benchmark? what happens when i change hidden layers? how optimizable is this? features to add? features to take away
+-I think a multilayer perceptron no bells or whistles is a good thing to write. cause i can strip down this one down
+-multi-layer perceptron one node, one hidden layer 0-0-0, inputs, hidden , logistic
+--regularization, l1 and l2
+--drop out
+--paramaterized hidden units
+--paramaterized number of hidden layers
+--multiple acitivation functions
+--multiple regression classes
+--AUC curve
+--performance standards
+--minibatch gradient descent
+--number of epochs
+--took out early stopping
+--no validation checkor no test score check. 
+--so this model will be drastically overfit 
+--hard code everything all the paramaters, but identify them as hyper paramaters
+--there are also regular paramaters 
+--
+but as a teaching mechanic I think that is fine
+--i'm noting what i'm taking out
+-- i striped down a lot of the functions , now i'm getting a type error for one of my y's. 
+
+--February 7th 
+--messing with the sgd optimization 
+-taking out number of epochs only want to do it once 
+-i got it to work but i don't think it should be. 
+--the hidden layer has to be 784 which is 28*28 but it should be going through two dot products not just one.
+-removed part about patience and conditional for improvment threshold
+--took out the bias
+--wondering what is wrong 
+--i think i messed up the arguements cause i'm sloppy 
+-hard coding things to try and make it work
+--geting weird theano shared needs 1 argument but being given 3. 
+--it's not even seeing the hidden layer for some reason
+--the hard coding is working kind of
+--got the layers feeding into each other but now dimensions are all wrong
+-debugging more 
+-got the same shared takes at least one argument error. value in shared was values not value. sigh
+-it's working! how can i make it more simple? 
+--more hidden layers takes a longer time, hidden layers vs computational timude e
+--include a paramaters function, include a check validation function
+--i could take at crosse validation all together
+February 8th
+--convputional neural networks are used for image processing. THere is a good tutorial on them at deep learning .com so i'll modify that to work with the first two parts of it. 

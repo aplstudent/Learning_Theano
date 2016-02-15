@@ -67,3 +67,14 @@ but as a teaching mechanic I think that is fine
 --i could take at crosse validation all together
 February 8th
 --convputional neural networks are used for image processing. THere is a good tutorial on them at deep learning .com so i'll modify that to work with the first two parts of it. 
+--February 14th Sunday
+-i'm going to use my modified code to do the convulutoinal net tutoral from deeplearning.net then i'll learn how to use the module lasgne to do similar things
+-There are tons of tools out there for using convolutional nets and recurrent nets monte carlo and rpm's and deep networks that are built on theano and other modules.
+Week 7
+--February 15th Monday
+-i think that the main skill is being able to read a paper and create a network from that. using any library or module possible
+i think just theano is good for the most control and implementing new networks, but just for analysis it is possible to use existing model. I'm wondering how much time i should spend in creating something new and how i should spend my time. I want to learn more statistics as well so I think I'll transition into using R. Python is great for machine learning using scikit and theano and modules built on that.
+
+this is a good refrence for a simple net https://github.com/Newmu/Theano-Tutorials/blob/master/5_convolutional_net.py
+Why are these weight's being initiallized in this way. what is the rule for it? it's a 4d tensor. there's length and width, then number of channels, ie rgb or b/w. then frouth is batch size. the layer is a convolution layer then a max pool'ing layer in the same class.
+under the convolution operator section it's explained. 

@@ -78,3 +78,8 @@ i think just theano is good for the most control and implementing new networks, 
 this is a good refrence for a simple net https://github.com/Newmu/Theano-Tutorials/blob/master/5_convolutional_net.py
 Why are these weight's being initiallized in this way. what is the rule for it? it's a 4d tensor. there's length and width, then number of channels, ie rgb or b/w. then frouth is batch size. the layer is a convolution layer then a max pool'ing layer in the same class.
 under the convolution operator section it's explained. 
+
+updated the readme to include the most helpful links. need to figure out how to do formating. 
+i'm going to learn lasagne because it is a framework on top of theano. 
+well now lasagne doesn't look as good.
+-- I think I've made an appropriate survey of the tools that exist. I want to write something but im not sure what it should be. - I could do an exploration of MNIST using the tools i have. I would like to choose a different classification problem. I'm going to stay within supervised learning.
